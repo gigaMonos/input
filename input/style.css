@@ -1,0 +1,14 @@
+
+.block-out-checked {
+    width: 30%;
+    height: 30px;
+    margin: 20px;
+    border: 2px solid black;
+    background: blueviolet;
+}
+.block-out-radio{
+    width: 30%;
+    background: blueviolet;
+    height: 50px;
+    margin: 20px;
+}

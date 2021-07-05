@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>input</title>
+		<link rel="stylesheet" href="style.css">
+</head>
+	<body>  
+		<form action="" class="form-input" >
+			<div>
+				<p> <input type="radio" class="input-radio" name="beer2" value="lager"> светлое пиво </p>
+				<p> <input checked type="radio" class="input-radio" name="beer2" value="dark"> темное пиво </p>
+				<p> <input type="radio" class="input-radio" name="beer2" value="vodka"> водка </p>
+			</div>
+			<select class="select-input" name="myselect" id="proof">
+				<option value="cat">Кот</option>
+				<option value="dog"> Собака</option>
+				<option value="Python">Питон</option>
+			</select>
+			<section>
+				<input type="text" name="username" class="input-one" value="">
+				<div class="block-out-one"></div>
+			</section>
+			<section>
+				<input type="checkbox" name="car" value='' class="checkbox-input" id="myCheck">
+				<label for="myCheck"></label>
+			</section>
+			<button type="submit" class="send-form"> Send</button>
+		</form>
+		<div>
+			<button class="button-select">Send</button>
+			<div class="block-out-select"></div>
+		</div>
+		
+		<div>
+			<input type="tel" name="user-phone" value="" class="input-two">
+			<button type="submit" class="b-two">Send</button>
+			<div class="block-out-two"></div>
+		</div>
+		<input type="file" name="foto">
+		<div>
+			<input type="color" name="bg" value="#ff0000" class="color-choise">
+			<button type="submit" class="button-color">Send</button>
+			<div class="block-out-color"></div>
+		</div>	
+		<div>
+			<textarea name="text" class="text-input"></textarea>
+			<div class="block-out-text"></div>
+			<button class="text-button">Send</button>
+		</div> 
+		<script src="script.js"></script>
+	</body>
+</html>
